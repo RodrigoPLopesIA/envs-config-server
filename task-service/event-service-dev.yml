@@ -2,7 +2,7 @@ server:
     port: 8081
 spring:
     application:
-        name: task-service
+        name: event-service
 management:
     endpoints:
         web:
@@ -14,4 +14,4 @@ management:
         health:
             show-details: ALWAYS 
 
-greeting: "hello task service!!!!!"
+greeting: "hello world greeting service tow!!!!!"
