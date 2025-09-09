@@ -1,8 +1,8 @@
 server:
-    port: 8081
+    port: 8080
 spring:
     application:
-        name: greeting-service-tow
+        name: user-service
 management:
     endpoints:
         web:
@@ -14,4 +14,4 @@ management:
         health:
             show-details: ALWAYS 
 
-greeting: "hello world greeting service tow!!!!!"
+greeting: "hello world greeting service!!!!!"
