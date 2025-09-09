@@ -13,3 +13,5 @@ spring:
         endpoint:
           health:
             show-details: ALWAYS 
+
+greeting: "hello world!"
