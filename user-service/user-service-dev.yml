@@ -3,6 +3,16 @@ server:
 spring:
     application:
         name: user-service-dev
+    datasource:
+        url: jdbc:postgresql://localhost:5432/user_service_db
+        username: root
+        password: root
+        driver-class-name: org.postgresql.Driver
+
+    jpa:
+        hibernate:
+            ddl-auto: none
+        show-sql: false
 management:
     endpoints:
         web:
@@ -13,5 +23,7 @@ management:
     endpoint:
         health:
             show-details: ALWAYS 
+
+    
 
 greeting: "hello world greeting service!!!!!"
