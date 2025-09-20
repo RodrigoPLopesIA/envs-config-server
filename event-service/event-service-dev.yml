@@ -2,7 +2,7 @@ server:
     port: 8081
 spring:
     application:
-        name: user-service
+        name: event-service
     datasource:
         url: jdbc:postgresql://localhost:5433/event_service_db
         username: root
