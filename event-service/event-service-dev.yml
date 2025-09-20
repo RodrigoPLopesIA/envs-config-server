@@ -1,10 +1,10 @@
 server:
-    port: 8080
+    port: 8081
 spring:
     application:
-        name: user-service-dev
+        name: user-service
     datasource:
-        url: jdbc:postgresql://localhost:5433/user_service_db
+        url: jdbc:postgresql://localhost:5433/event_service_db
         username: root
         password: root
         driver-class-name: org.postgresql.Driver
@@ -26,6 +26,4 @@ management:
         health:
             show-details: ALWAYS 
 
-    
-
-greeting: "hello world greeting service!!!!!"
+greeting: "hello event greeting service!!!!!"
