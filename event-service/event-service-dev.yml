@@ -4,7 +4,7 @@ spring:
     application:
         name: event-service
     datasource:
-        url: jdbc:postgresql://event_service_database:5433/event_service_db
+        url: jdbc:postgresql://event_service_database:5432/event_service_db
         username: root
         password: root
         driver-class-name: org.postgresql.Driver
